@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+
+form{
+    margin: 100px;
+    width: 510px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+label {
+    display: inline-block; width: 5em;
+}
+fieldset div {
+    margin: 50px;
+}
+fieldset .help {
+    display: inline-block;
+}
+#hide1, #hide2, #hide3{
+    font-style: italic;
+    margin-left: 5px;
+    display: none;
+}
+
+button {
+    width: 175px;
+    margin-left: 132px;
+}

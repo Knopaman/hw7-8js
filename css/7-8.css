@@ -1,0 +1,52 @@
+
+body {
+    background: url("http://cdn.wallpapersafari.com/69/59/LD9eUm.jpg");
+}
+
+#tabs {
+    width: 440px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 300px auto;
+}
+ul {
+    border: 1px solid black;
+    list-style: none;
+    height: 40px;
+    border-radius: 10px;
+    border-top: 0;
+}
+
+
+.menu_item {
+    margin-top: 3px;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    float: left;
+    line-height: 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.menu_item:hover{
+    background-color: rgb(227, 222, 222);
+}
+
+
+#tabs-2, #tabs-3, #tabs-1 {
+    margin-left: 31px;
+    display: none;
+    overflow: auto;
+    height: 253px;
+
+}
